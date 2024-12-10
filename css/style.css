@@ -328,16 +328,6 @@ img {
     margin: 30px 0;
 }
 
-.story-bg::after{
-    display: block;
-    position: relative;
-    content: "";
-    top: 0;
-    left: 0;
-    height: 100vh;
-    background-color: rgba(0, 0, 0, 0.66);
-}
-
 .story-info {
     background-color: #fff;
     padding: 20px 15px;
