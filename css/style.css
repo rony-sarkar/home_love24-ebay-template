@@ -365,10 +365,10 @@ img {
 .bg6 {
     background-image: url(../images/story/8.jpeg);
     background-size: cover;
-    margin-bottom: 30px;    
+    margin-bottom: 30px;
 }
 
-.story-bottom{
+.story-bottom {
     position: absolute;
     background-color: rgba(255, 255, 255, 0.8);
     padding: 10px 10px;
@@ -452,9 +452,10 @@ section.tab-section {
 /*  ================================
         tab area end
     ================================ */
-.crossseling-area table{
-    width: 100%;    
+.crossseling-area table {
+    width: 100%;
 }
+
 .crossseling-area table,
 .crossseling-area table th,
 .crossseling-area table h3 {
@@ -817,11 +818,6 @@ section.tab-section {
 /***** Mobile Layout *****/
 
 @media only screen and (max-width: 767px) {
-    .crossseling-area table h3 {
-        font-size: 14px;
-        font-weight: 400;
-        line-height: 1.6;
-    }
 
     .wel-come,
     .menu-top {
@@ -1012,18 +1008,41 @@ section.tab-section {
     .footer-widget {
         margin-bottom: 50px !important;
     }
-    .story-bg::after{
+
+    .story-bg::after {
         display: none;
     }
-                .story-info {
-	height: 450px;
-}
+
+    .story-info {
+        height: 450px;
+    }
+
+    .crossseling-area table h3 {
+        font-size: 12px;
+        padding: 10px 0;
+    }
+
+    .crossseling-area table a {
+        padding: 7px 6px;
+        font-size: 12px;
+    }
+
+    .crossseling-area table,
+    .crossseling-area table th {
+        padding: 2px;
+    }
+
+    .crossseling-area table tr,
+    .crossseling-area table tr td {
+        padding: 5px 0;
+        font-size: 12px;
+    }
 }
 
 /***** Wide Mobile Layout *****/
 
 @media only screen and (min-width: 480px) and (max-width: 767px) {
-        .story-info {
-	height: 500px;
-}
+    .story-info {
+        height: 500px;
+    }
 }
